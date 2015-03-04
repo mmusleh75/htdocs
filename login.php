@@ -1,8 +1,8 @@
 <?php
-include 'db_config.php';
+include ('base.php');
 $found = 0;
 
-session_start(); // Starting Session
+// session_start(); // Starting Session
 $error=''; // Variable To Store Error Message
 if (isset($_POST['submit'])) {
 

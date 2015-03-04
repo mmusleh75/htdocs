@@ -1,6 +1,5 @@
 <?php
-include 'db_config.php';
-include('login.php');
+include ('base.php');
 
 #$fullname=(empty($_POST['fullname'])?"no value":$_POST['fullname']);
 #$title= (empty($_POST['title'])?"no value":$_POST['title']);
